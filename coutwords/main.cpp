@@ -35,7 +35,7 @@ void counts()
 	int cal = 0;
 	for(i = 0; i <= strlen(words); i++)
 	{
-		if(words[i] != ' ' && words[i] != '\0')
+		if(words[i] != ' ' && words[i] != '\0' && words[i] != ',' &&words[i] != '\n'&&words[i] != '.')
 		{
 			str += words[i];
 			flag = 1;
